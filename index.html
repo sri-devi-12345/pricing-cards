@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pricing Plans</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <p class="small-title">SIMPLE PRICING</p>
+
+            <h1>Choose the right plan for you</h1>
+
+            <p class="subtitle">
+                Flexible plans designed for individuals and growing teams.
+            </p>
+
+            <!-- Billing Toggle -->
+            <div class="billing-toggle">
+                <span id="monthlyText" class="active">Monthly</span>
+
+                <label class="switch">
+                    <input type="checkbox" id="billingToggle">
+                    <span class="slider"></span>
+                </label>
+
+                <span id="yearlyText">
+                    Yearly <small>Save 20%</small>
+                </span>
+            </div>
+        </header>
+
+
+        <!-- Pricing Cards -->
+
+        <div class="pricing-container">
+
+            <!-- Starter -->
+            <div class="pricing-card">
+
+                <h2>Starter</h2>
+
+                <p class="description">
+                    Perfect for individuals getting started.
+                </p>
+
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="9" data-yearly="90">9</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <button class="choose-btn">
+                    Get Started
+                </button>
+
+                <h3>What's included</h3>
+
+                <ul>
+                    <li>✓ 5 Projects</li>
+                    <li>✓ Basic Analytics</li>
+                    <li>✓ 1 GB Storage</li>
+                    <li>✓ Email Support</li>
+                </ul>
+
+            </div>
+
+
+            <!-- Professional -->
+            <div class="pricing-card popular">
+
+                <div class="popular-badge">
+                    MOST POPULAR
+                </div>
+
+                <h2>Professional</h2>
+
+                <p class="description">
+                    Great for professionals and small teams.
+                </p>
+
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="19" data-yearly="190">19</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <button class="choose-btn">
+                    Choose Professional
+                </button>
+
+                <h3>What's included</h3>
+
+                <ul>
+                    <li>✓ Unlimited Projects</li>
+                    <li>✓ Advanced Analytics</li>
+                    <li>✓ 10 GB Storage</li>
+                    <li>✓ Priority Support</li>
+                    <li>✓ Custom Integrations</li>
+                </ul>
+
+            </div>
+
+
+            <!-- Enterprise -->
+            <div class="pricing-card">
+
+                <div class="value-badge">
+                    BEST VALUE
+                </div>
+
+                <h2>Enterprise</h2>
+
+                <p class="description">
+                    Powerful tools for growing businesses.
+                </p>
+
+                <div class="price">
+                    <span class="currency">$</span>
+                    <span class="amount" data-monthly="39" data-yearly="390">39</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <button class="choose-btn">
+                    Contact Sales
+                </button>
+
+                <h3>What's included</h3>
+
+                <ul>
+                    <li>✓ Everything in Professional</li>
+                    <li>✓ Unlimited Storage</li>
+                    <li>✓ Dedicated Support</li>
+                    <li>✓ Team Management</li>
+                    <li>✓ Advanced Security</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <p>© 2026 Pricing Plans. Built with HTML, CSS & JavaScript.</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
